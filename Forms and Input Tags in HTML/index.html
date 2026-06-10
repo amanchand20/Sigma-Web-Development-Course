@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags in HTML</title>
+</head>
+
+<body>
+    <h2>Personal Infromation Form</h2>
+
+    <form action="post">
+
+        <div>
+            <label for="username">Name: </label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div> <br>
+
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label id="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label id="female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe</label>
+        </div>
+
+        <div>
+            <label for="comment">Enter your commment:</label>
+            <textarea id="comment" name="comment" rows="5" cols="30">Write something here...
+            </textarea>
+        </div>
+
+        <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banane">Banana</option>
+                <option value="cheery">Cheery</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+
+</html>
