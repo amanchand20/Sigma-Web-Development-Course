@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing - px, rem, em, vh, vw, %, & more</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            border: 2px solid black;
+            /* width: 300px; */
+            width: 80vw;
+            height: 10vh;
+            box-sizing: border-box;
+            margin: auto;
+            background-color: aquamarine;
+        } 
+
+        html{
+            font-size: 12px;
+        }
+
+        .container{
+            border: 2px solid black;
+            /* width: 300px; */
+            width: 80vw;
+            font-size: 18px;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            margin: 23px auto;
+        }
+
+        .container p{
+            font-size: 2em;
+        }
+
+        .mycont{
+            background-color: red;
+            color: yellow;
+            font-size: 22px;
+            width: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+
+<div class="box">
+    This is a box
+</div>
+
+<div class="container">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo velit dolorum fugit aut cum corporis officia nam
+        officiis aliquam! Rem dignissimos quia voluptatem, vero nulla ex voluptates animi accusantium molestiae distinctio
+        dolore consequuntur deleniti atque aut, qui amet magni eius id consequatur autem!
+    </p>
+</div>
+
+<div class="mycont">
+    I'm another container
+</div>
+
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity & Cascade</title>
+    <style>
+        .yellow{
+            color: yellow;
+        }
+        p.blue{
+            color: blue;
+        }
+        .red{
+            color: red;
+        }
+        p{
+            color: gold;
+        }
+        /* [data-x=a]{
+            background-color: yellow;
+            color: green;
+        } */
+        </style>
+</head>
+
+<body>
+    <div>
+        <p style="color: red;" class="yellow red blue" data-x="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla corrupti, dignissimos et ipsam ipsa
+            reiciendis nobis dolore dicta sed quo aspernatur quae?</p>
+    </div>
+</body>
+
+</html>
