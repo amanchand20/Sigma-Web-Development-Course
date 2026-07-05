@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --primary-color: #ffd741;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+.top p {
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    background-color: var(--primary-color);
+}
+
+.info {
+    font-size: 14px;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.BuyNow {
+    margin: 0 10px;
+    /* text-decoration: none; */
+    color: black;
+    font-weight: bold;
+}
+
+.BuyNow:hover {
+    color: red;
+}
+
+.box {
+    margin: 28px 100px;
+    display: flex;
+    border-color: grey;
+    border-radius: 13px;
+    padding: 5px 15px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: #eeeeee;
+}
+
+.box ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.DownArrow {
+    position: relative;
+    top: -2px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.Download-Button {
+    border: none;
+    border-radius: 4px;
+    padding: 9px 18px;
+    background-color: var(--primary-color);
+}
+
+main {
+    padding-top: 150px;
+}
+
+h1 {
+    margin-top: 95px;
+    text-align: center;
+    font-weight: 500;
+    font-size: -webkit-xxx-large;
+}
+
+h1 img {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.description {
+    margin: 25px auto 40px auto;
+    color: grey;
+    width: 541px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Download {
+    display: flex;
+    justify-content: center;
+}
+
+.Download-Button2 {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: var(--primary-color);
+}
+
+.apple-logo {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px auto;
+}
+
+.UltraEdit-logo {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.small-text {
+    font-size: 18px;
+}
+
+.body p {
+    color: grey;
+    font-size: x-large;
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 0 80px;
+}
+
+.language {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 13px;
+    background-color: #ededed;
+}
+
+.header {
+    margin: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.paragraph {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.download-64bit{
+        padding: 10px;
+    background-color: yellow;
+    border-radius: 6px;
+}
+
+.small-text2 {
+    word-wrap: break-word;
+}
