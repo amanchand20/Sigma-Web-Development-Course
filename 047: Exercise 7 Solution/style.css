@@ -157,35 +157,3 @@ h1 img {
     justify-items: center;
     margin: 0 80px;
 }
-
-.language {
-    width: 400px;
-    height: auto;
-    padding: 10px;
-    margin: 20px;
-    border: 2px solid black;
-    border-radius: 13px;
-    background-color: #ededed;
-}
-
-.header {
-    margin: 10px;
-    font-size: 23px;
-    font-weight: bold;
-}
-
-.paragraph {
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.download-64bit{
-        padding: 10px;
-    background-color: yellow;
-    border-radius: 6px;
-}
-
-.small-text2 {
-    word-wrap: break-word;
-}
