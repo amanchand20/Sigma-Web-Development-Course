@@ -1,0 +1,41 @@
+.container {
+    width: 1400px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    background: blue;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: red;
+    animation: bounce 4s linear infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(200px, -180px);
+    }
+
+    40% {
+        transform: translate(400px, 0);
+    }
+
+    60% {
+        transform: translate(600px, -120px);
+    }
+
+    80% {
+        transform: translate(800px, 0);
+    }
+
+    100% {
+        transform: translate(1000px, -60px);
+    }
+}
