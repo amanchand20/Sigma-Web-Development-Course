@@ -6,6 +6,8 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    animation: animateX 3s linear infinite, animateY 1s ease-out infinite alternate;
+    /* animation: animateY 1s ease-out infinite alternate; */
 }
 
 .container {
@@ -13,4 +15,28 @@
     height: 80vh;
     width: 80vw;
     background-color: blue;
+}
+
+@keyframes animateX {
+
+    form{
+
+    }
+
+    to{
+        left: 100%;
+    }
+    
+}
+
+@keyframes animateY {
+
+    form{
+
+    }
+
+    to{
+bottom: 100%;
+    }
+    
 }
