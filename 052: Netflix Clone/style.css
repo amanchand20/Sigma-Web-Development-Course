@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.first {
+    height: 100vh;
+    position: relative;
+    background: url("assets/images/bg.jpg") center/cover no-repeat;
+}
+
+.box{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.74);
+    z-index:1;
+}
+
+nav {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 80px;
+}
+
+nav img {
+    width: 140px;
+}
+
+nav button {
+    padding: 7px 13px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero {
+    height: calc(100vh - 80px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 56px;
+    max-width: 650px;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 20px !important;
+    gap: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-top: 30px auto 20px auto;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero input {
+    max-width: 380px;
+    width: 380px;
+    height: 10px;
+    font-size: 17px;
+    padding: 23px;
+    border: 1px solid #818181;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.hero button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.second {
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+}
