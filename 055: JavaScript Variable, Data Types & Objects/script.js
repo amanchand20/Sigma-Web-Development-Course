@@ -33,7 +33,7 @@ console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r)
 let o = {
     name : "Aman",
     "job code" : 34928,
-    "is_handsome" : true;
+    "is_handsome" : true
 }
 
 console.log(o)
