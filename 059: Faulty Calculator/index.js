@@ -8,28 +8,28 @@ let random = Math.random();
 
 if (random < 0.1) {
     if (operator === "+") {
-        console.log(a-b);
+        console.log(a - b);
     }
     else if (operator === "-") {
-        console.log(a/b);
+        console.log(a / b);
     }
     else if (operator === "*") {
-        console.log(a+b);
+        console.log(a + b);
     }
     else if (operator === "/") {
-        console.log(a**b);
+        console.log(a ** b);
     }
 } else {
     if (operator === "+") {
-        console.log(a+b);
+        console.log(a + b);
     }
     else if (operator === "-") {
-        console.log(a-b);
+        console.log(a - b);
     }
     else if (operator === "*") {
-        console.log(a*b);
+        console.log(a * b);
     }
     else if (operator === "/") {
-        console.log(a/b);
+        console.log(a / b);
     }
 }
