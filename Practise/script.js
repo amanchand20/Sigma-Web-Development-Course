@@ -1,6 +1,7 @@
-// function sum(x, y) {
-//     return x + y
-// }
+let boxes = document.querySelectorAll("box")
 
-// result = sum(5, 8);
-// console.log("My result is: ", result);
+let paragraph = document.getElementsByTagName("p")
+
+boxes.innertext = "Hello World";
+
+let box = document.querySelector(".box")
