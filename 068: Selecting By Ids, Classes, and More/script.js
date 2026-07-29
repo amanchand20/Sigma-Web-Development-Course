@@ -1,16 +1,11 @@
 console.log("Aman")
 
-// let boxes = document.getElementsByClassName("box")
-// console.log.boxes
+// let zoro = document.getElementsByClassName("box")
+// console.log(zoro)
 
-// boxes[2].style.backgroundColor = "red" 
+document.querySelector("h4").style.backgroundColor = "yellow"
 
-// document.getElementById("red").style.backgroundColor = "red"
+document.getElementById("redbox").style.backgroundColor = "red"
+document.body.childElement
 
-// document.querySelector(".box").style.backgroundColor = "green"
-
-console.log(document.querySelectorAll(".box"))
-
-document.querySelectorAll(".box").forEach(e=>{
-    e.style.backgroundColor = "green"
-})
+document.querySelector(".box").computedStyleMap.backgroundColor = "green"
