@@ -1,1 +1,1 @@
-alret ("Hello World")
+alert ("Hello World")
