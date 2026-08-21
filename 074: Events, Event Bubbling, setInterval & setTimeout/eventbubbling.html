@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Bubbling</title>
+    <style>
+        .child{
+            background-color: aliceblue;
+            border: 2px solid black;
+            padding: 34px;
+            margin: 34px;
+        }
+
+        .childContainer{
+            background-color: green ;
+            padding: 34px;
+            margin: 34px;
+        }
+
+        .container{
+            background-color: red;
+            padding: 34px;
+            margin: 34px;
+        }
+    </style>
 </head>
+
+<!-- 17:31 -->
+
 <body>
     <div class="container">
-        <span class="childContainer">
+        <section class="childContainer">
             <div class="child">
                 I am a child
             </div>
-        </span>
+        </section>
     </div>
     <script>
-        document.querySelector()
+        document.querySelector(".child").addEventListener
+            ("contextmenu", () => {
+                alert("child was clicked")
+            })
+
+        document.querySelector(".childContainer").addEventListener
+            ("contextmenu", () => {
+                alert("childContainer was clicked")
+            })
+
+        document.querySelector(".container").addEventListener
+            ("contextmenu", () => {
+                alert("container was clicked")
+            })
     </script>
 </body>
+
 </html>
