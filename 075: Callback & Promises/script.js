@@ -3,6 +3,12 @@ console.log("Anshu is hecker")
 
 setTimeout(() => {
     console.log("I'm a hacker");
-}, 2000);
+}, 0);
+
+setTimeout(() => {
+    console.log("I'm inside set timeout");
+}, 0);
 
 console.log("The End")
+
+const loadscript
