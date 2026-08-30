@@ -10,5 +10,6 @@ setTimeout(() => {
 }, 0);
 
 console.log("The End")
+console.log("The End")
 
 const loadscript
