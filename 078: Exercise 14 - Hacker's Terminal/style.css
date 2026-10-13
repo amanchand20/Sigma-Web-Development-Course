@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 0;
+}
+
+.line {
+    margin-bottom: 12px;
+}
+
+/* CSS Animation for Blinking Dots */
+.blink {
+    animation: blinker 1s infinite;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
